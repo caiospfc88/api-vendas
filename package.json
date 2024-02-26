@@ -1,0 +1,19 @@
+{
+  "name": "api-vendas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/caiospfc88/api-vendas.git",
+  "author": "caiospfc88 <49125995+caiospfc88@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "tsconfig-paths": "^4.2.0"
+  }
+}

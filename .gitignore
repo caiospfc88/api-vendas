@@ -1,3 +1,14 @@
+#Projeto api-vendas
+.idea/
+.vscode/
+build/
+temp/
+coverage
+ormconfig.json
+dist
+uploads/*
+!uploads/.gitkeep
+
 # Logs
 logs
 *.log
