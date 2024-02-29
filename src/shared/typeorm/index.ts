@@ -1,14 +1,4 @@
-import { DataSource } from 'typeorm';
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const connection = new DataSource({
-  type: 'postgres',
-  host: 'localhost',
-  port: 5432,
-  username: 'postgres',
-  password: 'docker',
-  database: 'apivendas',
-});
+import connection from '@shared/typeorm/ormconfig';
 
 connection
   .initialize()
@@ -18,3 +8,5 @@ connection
   .catch(err => {
     console.error('Error during Data Source initialization', err);
   });
+
+export default connection;

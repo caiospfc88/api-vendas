@@ -5,6 +5,7 @@ build/
 temp/
 coverage
 ormconfig.json
+src/shared/typeorm/ormconfig.ts
 dist
 uploads/*
 !uploads/.gitkeep
